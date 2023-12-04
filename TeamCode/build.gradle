@@ -32,6 +32,7 @@ repositories {
 dependencies {
     implementation project(':FtcRobotController')
     annotationProcessor files('lib/OpModeAnnotationProcessor.jar')
-
+    implementation 'org.tensorflow:tensorflow-lite:+'
     implementation project(':RoadRunner')
+    implementation 'org.tensorflow:tensorflow-lite-gpu:2.3.0'
 }

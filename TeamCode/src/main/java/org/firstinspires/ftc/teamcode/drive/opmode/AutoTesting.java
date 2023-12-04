@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
 
 @Autonomous(name = "Testing Auto")
-public class AutonomousOpModeRedTop extends LinearOpMode {
+public class AutoTesting extends LinearOpMode {
     private DcMotor lift = null;
     private int liftDelay = 1500;
     @Override
